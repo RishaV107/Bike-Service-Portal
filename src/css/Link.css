@@ -1,0 +1,36 @@
+.Link {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    height: 40px;
+}
+
+.Link-text {
+    display: block;
+}
+
+.Link img {
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+
+.Link a {
+    text-decoration: none;
+}
+
+.Link img.expand {
+    position: relative;
+    top: 1px;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .Link img.expand {
+        display: block;
+    }
+}

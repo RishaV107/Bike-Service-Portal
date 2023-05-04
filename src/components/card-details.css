@@ -1,0 +1,69 @@
+    .detail-cont {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    
+    .leftbox {
+        width: 50%;
+    }
+    
+    .leftbox img {
+        width: 90%;
+    }
+    
+    .boxxx {
+        display: flex;
+        flex-direction: row;
+        justify-content: space space-around;
+    }
+    
+    .cust {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pricing {
+        margin-top: 50px;
+    }
+    
+    .rightbox {
+        justify-content: center;
+        background-color: honeydew;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .tile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: large;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .cardprice {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    button {
+        border: none;
+        color: white;
+        background-color: white;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .custcard {
+            width: 100%;
+        }
+        .ant-col-8 {
+            flex: 1;
+        }
+    }

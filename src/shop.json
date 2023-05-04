@@ -1,0 +1,166 @@
+ {
+     "shop": [{
+             "shop_id": 1,
+             "shop_name": "Abc Bike Servicing",
+             "shop_Address": "Ghaziabad",
+             "img": "repair-mechanism.png"
+         },
+         {
+             "shop_id": 2,
+             "shop_name": "Ram Garrage center",
+             "shop_Address": "Muradnagar",
+             "img": "garage.png"
+         },
+         {
+             "shop_id": 3,
+             "shop_name": "Bajaj Auto Center",
+             "shop_Address": "Kavinagar",
+             "img": "repair-mechanism.png"
+         },
+         {
+             "shop_id": 4,
+             "shop_name": "Abc",
+             "shop_Address": "Ghaziabad",
+             "img": "repair-mechanism.png"
+         },
+         {
+             "shop_id": 5,
+             "shop_name": "Abc",
+             "shop_Address": "Ghaziabad",
+             "img": "repair-mechanism.png"
+         },
+         {
+             "shop_id": 6,
+             "shop_name": "Abc",
+             "shop_Address": "Ghaziabad",
+             "img": "repair-mechanism.png"
+         }
+
+     ],
+
+     "Bike": [{
+             "Bikename": "Rolyal Enfield Bullet",
+             "company": "Royal Enfiled",
+             "serviceCharges": [{
+                     "ServiceName": "Engineoil",
+                     "price": 1200
+                 },
+                 {
+                     "ServiceName": "washing",
+                     "price": 400
+                 },
+                 {
+                     "ServiceName": "oiling",
+                     "price": 700
+                 },
+                 {
+                     "ServiceName": "Tire",
+                     "price": 2000
+                 }
+
+
+             ]
+         },
+         {
+             "Bikename": "Pulsar",
+             "company": "Bajaj",
+             "serviceCharges": [{
+                     "ServiceName": "Engineoil",
+                     "price": 700
+                 },
+                 {
+                     "ServiceName": "washing",
+                     "price": 400
+                 },
+                 {
+                     "ServiceName": "oiling",
+                     "price": 400
+                 },
+                 {
+                     "ServiceName": "Tire",
+                     "price": 1900
+                 }
+
+             ]
+         },
+         {
+             "Bikename": "Splender",
+             "company": "Hero",
+             "serviceCharges": [{
+                     "ServiceName": "Engineoil",
+                     "price": 800
+                 },
+                 {
+                     "ServiceName": "washing",
+                     "price": 400
+                 },
+                 {
+                     "ServiceName": "oiling",
+                     "price": 700
+                 },
+                 {
+                     "ServiceName": "Tire",
+                     "price": 1000
+                 }
+             ]
+         },
+         {
+             "Bikename": "TvS Victor",
+             "company": "TvS",
+             "serviceCharges": [{
+                     "ServiceName": "Engineoil",
+                     "price": 600
+                 },
+                 {
+                     "ServiceName": "washing",
+                     "price": 300
+                 },
+                 {
+                     "ServiceName": "oiling",
+                     "price": 500
+                 },
+                 {
+                     "ServiceName": "Tire",
+                     "price": 1000
+                 }
+             ]
+         }
+     ],
+     "Shop-detail": [{
+             "shop-id": "1",
+             "shop_name": "Abc Bike Servicing",
+             "shop_Address": "Ghaziabad",
+             "Full-address": "shop no 15 near Kavinagar ghaziabad",
+             "owner": "Rajesh",
+             "Contact Details": "892561234"
+
+         },
+         {
+             "shop-id": "2",
+             "shop_name": "Ram Garrage center",
+             "shop_Address": "Muradnagar",
+             "Full-address": "shop no 15 near railway station Muradnagar",
+             "owner": "Ram",
+             "Contact Details": "892561234"
+
+         },
+         {
+             "shop-id": "3",
+             "shop_name": "Abc Bike Servicing",
+             "shop_Address": "Ghaziabad",
+             "Full-address": "shop no 15 near Kavinagar ghaziabad",
+             "owner": "Rajesh",
+             "Contact Details": "892561234"
+
+         },
+         {
+             "shop-id": "4",
+             "shop_name": "Abc Bike Servicing",
+             "shop_Address": "Ghaziabad",
+             "Full-address": "shop no 15 near Kavinagar ghaziabad",
+             "owner": "Rajesh",
+             "Contact Details": "892561234"
+
+         }
+     ]
+ }

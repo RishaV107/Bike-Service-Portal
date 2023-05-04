@@ -1,0 +1,170 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.headBgWhite {
+    background: #fff;
+    box-shadow: 0px 1px 3px 0px rgb(204 204 204);
+    z-index: 999999;
+}
+
+.mobileHeader {
+    display: flex;
+    min-height: 60px;
+    flex-direction: row;
+    background-color: #f3f4f6;
+    align-items: center;
+}
+
+.logoImage {
+    height: 80px;
+    width: 80px;
+}
+
+.logoContainer {
+    margin-top: 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer:hover {
+    cursor: pointer;
+}
+
+.logoTextContainer {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-left: 5px;
+    padding-bottom: 15px;
+}
+
+.helperLogoText {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.mainLogoText {
+    color: #C40B0B;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.locationIcon {
+    color: #C40B0B;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.locationText {
+    color: #C40B0B;
+    /* font-weight: 700; */
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.locationContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.navigationContainer {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamBurgerContainer {
+    width: 80px;
+}
+
+.mobileLogoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobileLogoContainer img {
+    align-self: start;
+}
+
+.mainLogoText {
+    margin: auto;
+}
+
+.hamburgerIcon {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+.navigationText {
+    margin-left: 25px;
+    color: white;
+}
+
+.navigationButton {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+    .mobileHeader {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1em;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navigationText {
+        margin-left: 15px;
+        padding: 10px;
+        color: gray;
+        font-size: large;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .mobileHeader {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .mobileHeader {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .mobileHeader {
+        display: none;
+    }
+}

@@ -1,0 +1,146 @@
+@media (min-width: 768px) {
+    .Navigation-switch {
+        display: none;
+    }
+}
+
+.Navigation {
+    width: 80%;
+    padding-left: 10%;
+}
+
+.Navigation>.container {
+    background-color: rgba(255, 255, 255, 0.178);
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media (min-width: 768px) {
+    .Navigation>.container {
+        background-color: white;
+        padding: 10px 48px 10px 40px;
+        justify-content: space-between;
+        opacity: 1;
+        pointer-events: initial;
+    }
+}
+
+.Navigation-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .Navigation-left {
+        flex-direction: row;
+        align-items: initial;
+    }
+}
+
+.Navigation-left .Link {
+    color: white;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .Navigation-left .Link {
+        color: #02133c;
+        margin-right: 37px;
+        font-size: 1em;
+    }
+}
+
+.Navigation-left .Link span {
+    padding-right: 5px;
+}
+
+.Navigation-container.container {
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .Navigation-container.container {
+        padding: 0;
+        position: relative;
+    }
+}
+
+.Navigation-right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 68px;
+    top: 27px;
+}
+
+@media (min-width: 768px) {
+    .Navigation-right {
+        top: -42px;
+    }
+}
+
+.Navigation-right-search-icon {
+    background: url('../photos/search.svg') no-repeat center center;
+}
+
+@media (min-width: 768px) {
+    .Navigation-right-search-icon {
+        background: url('../photos/search.png') no-repeat center center;
+    }
+}
+
+.Navigation-right-shopping-icon {
+    background: url('../photos/shopping-cart-white.svg') no-repeat center center;
+}
+
+@media (min-width: 768px) {
+    .Navigation-right-shopping-icon {
+        background: url('../photos/shopping-cart.svg') no-repeat center center;
+    }
+}
+
+.Navigation-right .shopping-cart {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .Navigation-right .shopping-cart {
+        margin-left: 22px;
+    }
+}
+
+.Navigation-right .shopping-cart-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    line-height: 22px;
+    border-radius: 16px;
+    background-color: #c40b0b;
+    color: white;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -4px;
+    top: 0px;
+}
+
+@media (min-width: 768px) {
+    .Navigation-right .shopping-cart-indicator {
+        right: -8px;
+        top: -5px;
+    }
+}
+
+#switch {
+    transition: 0.17s;
+    backdrop-filter: blur(5px);
+}
+
+#switch.switch {
+    opacity: 1;
+    pointer-events: initial;
+}

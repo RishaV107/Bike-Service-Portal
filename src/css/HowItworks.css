@@ -1,0 +1,83 @@
+.howItworks {
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 40%;
+    height: 500px;
+    background: url('../photos/11.svg') no-repeat;
+}
+
+.box2 {
+    margin-left: 5%;
+    width: 35%;
+}
+
+.box2 h1 {
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    margin: 0.67em 0;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+}
+
+.box2 h3 {
+    font-weight: 300;
+}
+
+.card-box {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-item {
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 2px 3px 5px 0px rgba(102, 99, 99, 0.75);
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(196, 181, 181, 0.75);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(231, 219, 219, 0.75);
+    height: auto;
+    box-sizing: border-box;
+    background-color: #165DF5;
+    color: white
+}
+
+.c2 {
+    background-color: #E9F0FF;
+    color: black;
+}
+
+.c3 {
+    background-color: #F6EEF4;
+    color: black;
+}
+
+.title_sections h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .card-box {
+        flex-wrap: wrap;
+    }
+    .card-item {
+        width: 90%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}

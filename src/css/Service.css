@@ -1,0 +1,50 @@
+.Services {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url('../photos/gears-left-top-bg.png');
+    background-size: 642px;
+}
+
+.Services>.container {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .Services {
+        padding-top: 110px;
+        padding-bottom: 122px;
+    }
+}
+
+.Services-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .Services-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: initial;
+    }
+}
+
+.Services-content a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .Services-content a {
+        margin-top: 66px;
+    }
+}

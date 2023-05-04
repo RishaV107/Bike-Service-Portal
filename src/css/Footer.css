@@ -1,0 +1,47 @@
+ .footer {
+     color: white;
+     background-color: #000;
+     display: flex;
+ }
+ 
+ .footerSide {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     margin-left: 10%;
+     margin-bottom: 40px;
+ }
+ 
+ .footerSide p {
+     color: rgba(255, 255, 255, 0.7);
+ }
+ 
+ .footerSide2 {
+     width: 40%;
+ }
+ 
+ .footerSide2 ul li {
+     list-style: none;
+     color: white;
+ }
+ 
+ .footerSide2 {
+     color: wheat;
+ }
+ 
+ a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .skills {
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+ 
+ .fr {
+     width: 20%;
+     flex-wrap: wrap;
+ }

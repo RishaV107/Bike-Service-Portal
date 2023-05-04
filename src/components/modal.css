@@ -1,0 +1,33 @@
+.formcont{
+    display:flex;
+    justify-content:space-around;
+    background-color: white;
+    box-sizing: inherit;
+    box-shadow: 0px 45px 60px 0px rgba(0, 0, 0, 0.087);
+    width:80%;
+    margin:5%;
+    margin-left:10%
+
+}
+.forml{
+    width:90%
+}
+.formbox{
+    display:flex;
+    margin:4%;
+    flex-direction:column;
+    width:40%;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.rside{
+    width:50%
+}
+
+.rside img{
+    width:90%;
+}
+.pricehead{
+    margin-left:30%;
+    font-size:large
+}

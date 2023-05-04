@@ -1,0 +1,85 @@
+.contactUsContainer {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #f0f0f0;
+  transition: 0.3s;
+  z-index: 12;
+  margin-top:60px;
+}
+.contactUsFormContainer {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  padding: 30px;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: center;
+}
+.contactUsImageContainer {
+  flex: 2;
+  width: 100%;
+  display: flex;
+}
+.contactUsImage {
+  width: 100%;
+  height: 100%;
+}
+.contactUsContainer:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.formHeading {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  margin: 0;
+  text-align: left;
+}
+.formSubHeading {
+  font-size: 14px;
+  margin: 0;
+  text-align: left;
+}
+.contactUsForm {
+  width: 100%;
+  margin-top: 15px;
+}
+.contactUsInput {
+  margin: 15px 0px 15px 0px;
+  height: 45px;
+  border-radius: 5px;
+  width: 100%;
+}
+.contactSubmitButton {
+  color: #fff;
+  background-color: #225ddf;
+  height: 40px;
+  width: 160px;
+}
+
+.formError {
+  color: red;
+  font-size: 12px;
+  float: left;
+}
+
+@media only screen and (max-width: 480px) {
+  .contactUsImageContainer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .contactUsImageContainer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1201px) {
+}

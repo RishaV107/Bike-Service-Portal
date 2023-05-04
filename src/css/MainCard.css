@@ -1,0 +1,132 @@
+.Maincard {
+    background-color: white;
+    height: 100%;
+    position: relative;
+    top: -80px;
+    width: 30%;
+    margin-left: auto;
+    width: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .Maincard {
+        height: 700px;
+    }
+}
+
+.Maincard-content {
+    padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+    .Maincard-content {
+        margin-left: 87px;
+        margin-right: 87px;
+    }
+}
+
+.Maincard-text {
+    color: #4b4b4b;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin-top: 36px;
+}
+
+.Maincard-img {
+    margin-top: 54px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .Maincard-img {
+        width: 846px;
+    }
+}
+
+.Maincard-links {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.Maincard-links:before {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'Live';
+    position: absolute;
+    right: 13px;
+    top: 93px;
+    width: 50px;
+    height: 30px;
+    background-color: #21c613;
+    z-index: 5;
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.2), 0px 4px 8px rgba(38, 38, 38, 0.24);
+}
+
+@media (min-width: 768px) {
+    .Maincard-links:before {
+        right: 32px;
+        top: 127px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Maincard-links {
+        margin-top: 56px;
+    }
+}
+
+.Maincard-links-link {
+    position: relative;
+    font-size: 10px;
+    font-weight: lighter;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #02133c;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .Maincard-links-link {
+        width: 212px;
+        border-bottom: 1px solid #d5d5d5;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+}
+
+.Maincard-links-link:nth-child(1)::before {
+    display: none;
+}
+
+.Maincard-links-link:nth-child(2) {
+    color: #c40b0b;
+    border-bottom: 4px solid #c40b0b;
+}
+
+.Maincard-links-link:nth-child(4)::before {
+    background-color: #d5d5d5;
+}
+
+.Maincard-links-link:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    position: absolute;
+    background-color: #21c613;
+    z-index: 1;
+    right: -5px;
+}
+
+@media (min-width: 768px) {
+    .Maincard-links-link:before {
+        right: 27px;
+    }
+}
