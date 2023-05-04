@@ -1,3 +1,5 @@
+Bike Service Portal App
+
 Welcome to the Bike Service Portal App! This is a web application built using React, designed to provide a platform for bike owners to schedule and manage their bike service appointments conveniently. This README file will guide you through the setup and usage of the app.
 
 Features
